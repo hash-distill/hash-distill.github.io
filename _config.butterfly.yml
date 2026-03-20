@@ -17,6 +17,8 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
+  友链: /link/ || fas fa-link
+  留言板: /messageBoard/ || fas fa-comment
 
 # ---------------------------------------------------------------
 # 代码块 Code Blocks
@@ -51,16 +53,26 @@ cover:
   archives_enable: true
   position: both
   default_cover:
-    - https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800
-    - https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800
-    - https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800
+    - transparent
+
+# ===============================================================
+# 动态背景设置 Dynamic Background
+# ===============================================================
+universe:
+  enable: true
+
+canvas_ribbon:
+  enable: false
+  size: 150
+  alpha: 0.6
+  zIndex: -1
 
 # ---------------------------------------------------------------
 # 页面配置 Page Layout
 # ---------------------------------------------------------------
-# 主页 top_img
-index_img:
-default_top_img: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600
+# 主页 top_img (设置为 transparent，不使用太空静态图，凸显动态背景)
+index_img: transparent
+default_top_img: transparent
 
 # ---------------------------------------------------------------
 # 文章页面设置 Post Settings
