@@ -1,11 +1,3 @@
 - class_name: 友情链接
-  class_desc: 那些有趣的人们
-  link_list:
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的博客框架
-    - name: Butterfly
-      link: https://butterfly.js.org/
-      avatar: https://img.alicdn.com/tfs/TB1Xz1X1Yj1gK0jSZFOXXc7GpXa-32-32.ico
-      descr: 一款高颜值的 Hexo 主题
+  class_desc: 暂无友链，欢迎交换！
+  link_list: []

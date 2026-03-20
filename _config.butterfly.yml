@@ -35,7 +35,8 @@ code_word_wrap: false
 # ---------------------------------------------------------------
 social:
   fab fa-github: https://github.com/hash-distill || Github
-  fas fa-envelope: mailto:your-email@example.com || Email
+  fab fa-bilibili: https://space.bilibili.com/671294001 || Bilibili
+  fas fa-envelope: mailto:zhanghs233@nenu.edu.cn || Email
 
 # ---------------------------------------------------------------
 # 头像 Avatar
