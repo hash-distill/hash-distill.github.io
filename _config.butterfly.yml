@@ -241,3 +241,27 @@ wordcount:
   post_wordcount: true
   min2read: true
   total_wordcount: true
+
+# ===============================================================
+# 评论系统 Comments
+# ===============================================================
+comments:
+  use:
+    - Giscus
+  text: true
+  lazyload: true
+  count: true
+
+giscus:
+  repo: hash-distill/hash-distill.github.io
+  repo_id: R_kgDORr5VcQ
+  category: Q&A
+  category_id: DIC_kwDORr5Vcc4C41-v
+  theme: light
+  theme_dark: dark
+  mapping: pathname
+  reactions_enabled: 1
+  emit_metadata: 0
+  light_theme: light
+  dark_theme: dark
+  option:
