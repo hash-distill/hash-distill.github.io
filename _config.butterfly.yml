@@ -37,6 +37,8 @@ social:
   fab fa-github: https://github.com/hash-distill || Github
   fab fa-bilibili: https://space.bilibili.com/671294001 || Bilibili
   fas fa-envelope: mailto:zhanghs233@nenu.edu.cn || Email
+  fab fa-qq: tencent://message/?uin=1437797219&Site=&Menu=yes || QQ
+  fab fa-weixin: / || 微信: zzxfywgy321
 
 # ---------------------------------------------------------------
 # 头像 Avatar
@@ -49,12 +51,12 @@ avatar:
 # 首页文章封面 Cover
 # ---------------------------------------------------------------
 cover:
-  index_enable: false
-  aside_enable: false
-  archives_enable: false
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
   position: both
   default_cover:
-    - transparent
+    - /img/default_cover.png
 
 # ===============================================================
 # 动态背景设置 Dynamic Background
@@ -71,9 +73,9 @@ canvas_ribbon:
 # ---------------------------------------------------------------
 # 页面配置 Page Layout
 # ---------------------------------------------------------------
-# 主页 top_img (设置为 transparent，不使用太空静态图，凸显动态背景)
-index_img: transparent
-default_top_img: transparent
+# 主页 top_img (默认有风格封面)
+index_img: /img/banner.png
+default_top_img: /img/banner.png
 
 # ---------------------------------------------------------------
 # 文章页面设置 Post Settings
