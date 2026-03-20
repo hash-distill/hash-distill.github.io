@@ -1,0 +1,230 @@
+# ==========================================================
+# Butterfly 主题配置文件
+# 文档: https://butterfly.js.org/
+# ==========================================================
+
+# ---------------------------------------------------------------
+# 导航栏 Navigation
+# ---------------------------------------------------------------
+nav:
+  logo:
+  display_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-heart
+
+# ---------------------------------------------------------------
+# 代码块 Code Blocks
+# ---------------------------------------------------------------
+highlight_theme: mac # mac | mac light | light | dark | false
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: false
+code_word_wrap: false
+
+# ---------------------------------------------------------------
+# 社交链接 Social Settings
+# ---------------------------------------------------------------
+social:
+  fab fa-github: https://github.com/hash-distill || Github
+  fas fa-envelope: mailto:your-email@example.com || Email
+
+# ---------------------------------------------------------------
+# 头像 Avatar
+# ---------------------------------------------------------------
+avatar:
+  img: https://github.com/hash-distill.png
+  effect: false
+
+# ---------------------------------------------------------------
+# 首页文章封面 Cover
+# ---------------------------------------------------------------
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+  default_cover:
+    - https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800
+    - https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800
+    - https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800
+
+# ---------------------------------------------------------------
+# 页面配置 Page Layout
+# ---------------------------------------------------------------
+# 主页 top_img
+index_img:
+default_top_img: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600
+
+# ---------------------------------------------------------------
+# 文章页面设置 Post Settings
+# ---------------------------------------------------------------
+post_meta:
+  page:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+
+# ---------------------------------------------------------------
+# 目录 Table of Contents
+# ---------------------------------------------------------------
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+
+# ---------------------------------------------------------------
+# 版权信息 Post Copyright
+# ---------------------------------------------------------------
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# ---------------------------------------------------------------
+# 侧边栏 Aside
+# ---------------------------------------------------------------
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: '热爱技术，持续学习中 🚀'
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub 主页
+      link: https://github.com/hash-distill
+  card_announcement:
+    enable: true
+    content: '欢迎来到我的博客！这里记录着我的技术成长与学习笔记。'
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    color: true
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order:
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order:
+
+# ---------------------------------------------------------------
+# 底部设置 Footer
+# ---------------------------------------------------------------
+footer:
+  owner:
+    enable: true
+    since: 2025
+  custom_text:
+  copyright: true
+
+# ---------------------------------------------------------------
+# 右下角按钮 Rightside
+# ---------------------------------------------------------------
+readmode: true
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+# ---------------------------------------------------------------
+# 搜索 Local Search
+# ---------------------------------------------------------------
+local_search:
+  enable: false
+
+# ---------------------------------------------------------------
+# 图片懒加载 Image Lazyload
+# ---------------------------------------------------------------
+lazyload:
+  enable: true
+  field: site
+  placeholder:
+  blur: false
+
+# ---------------------------------------------------------------
+# 页面美化 Beautify
+# ---------------------------------------------------------------
+beautify:
+  enable: true
+  field: post
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: '#F47466'
+
+# ---------------------------------------------------------------
+# 字体设置 Font Settings
+# ---------------------------------------------------------------
+font:
+  global-font-size:
+  code-font-size:
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+  code-font-family:
+
+# ---------------------------------------------------------------
+# 页面锚点 Anchor
+# ---------------------------------------------------------------
+anchor:
+  auto_update: false
+  click:
+    scroll_post: true
+    scroll_decode: true
+
+# ---------------------------------------------------------------
+# 页面加载动画 Preloader
+# ---------------------------------------------------------------
+preloader:
+  enable: false
+  source: 1
+  pace_css_url:
+
+# ---------------------------------------------------------------
+# 字数统计（需安装 hexo-wordcount）
+# ---------------------------------------------------------------
+wordcount:
+  enable: false
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
