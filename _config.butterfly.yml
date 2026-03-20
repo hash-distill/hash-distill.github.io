@@ -49,9 +49,9 @@ avatar:
 # 首页文章封面 Cover
 # ---------------------------------------------------------------
 cover:
-  index_enable: true
-  aside_enable: true
-  archives_enable: true
+  index_enable: false
+  aside_enable: false
+  archives_enable: false
   position: both
   default_cover:
     - transparent
@@ -60,7 +60,7 @@ cover:
 # 动态背景设置 Dynamic Background
 # ===============================================================
 universe:
-  enable: true
+  enable: false
 
 canvas_ribbon:
   enable: false
